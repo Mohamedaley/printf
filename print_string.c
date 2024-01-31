@@ -11,7 +11,7 @@ int _puts(char *str)
 	if (str == NULL)
 	{
 		write(1, "(null)", 6);
-		len = -1;
+		len = 6;
 		return (len);
 	}
 	while (*(str + len))

@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 	if (format == NULL)
 	{
 		len += _puts(NULL);
-		return (-1);
+		return (6);
 	}
 	while (*format)
 	{
